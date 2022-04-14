@@ -1,4 +1,4 @@
-package com.YangFanou.week6;
+package com.YangFanou.week7;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
