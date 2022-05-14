@@ -1,6 +1,7 @@
 package com.YangFanou.dao;
 
 import com.YangFanou.model.Product;
+import com.YangFanou.week4.ConfigDemoServlet;
 
 import java.io.InputStream;
 import java.sql.Connection;
@@ -18,5 +19,5 @@ public interface IProductDao {
     public List<Product> findAll(Connection con) throws SQLException;
     public List<Product> findByProductName(String productName, Connection con) throws SQLException;
     public List<Product> getPicture(Integer productId, Connection con) throws SQLException;
-
+    public byte[] getPictureById(Integer productId, Connection con) throws  SQLException;
 }
